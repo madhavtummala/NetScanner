@@ -5,14 +5,13 @@ The base ip is extracted from your current ip address and other devices on the s
 If a device is connected, it responds
 
 ## Dependencies
-fping
-tqdm
+fping  
+tqdm  
 
 ## Instruction
 First install fping if not installed  
 
 ``brew install fping`` for macOS  
-or  
 ``sudo apt-get install fping`` for linux  
 
 If using python scanner, then install tqmd
