@@ -9,7 +9,7 @@ my_list = []
 
 for i in tqdm.tqdm(range(256)):
 	IP = BASE_IP+str(i)
-	response = os.system("fping -c1 -t10 " + IP + " > /dev/null 2>&1")
+	response = os.system("fping -t10 -g " + IP + " > /dev/null 2>&1")
 	if response == 0:
 		my_list.append(IP)
 
